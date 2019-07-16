@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mr-auto{
+    margin-left: 50px;
+}
+.search{
+    margin-right: 20px;
+}
+.search-field{
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: 2px solid rgba(32, 160, 36, 0.523);
+    outline: none;
+}
+.search-field:focus{
+    border: 2px solid rgb(32, 160, 36);
+    transition: 1s;
+}
+.img-article{
+    width: 100%;
+    border-radius: 6px;
+    box-shadow: 0px 10px 11px 0px rgba(0,0,0,0.75);
+}
+.pargraphe-article{
+    margin-top: 20px;
+}
+.article{
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.footer{
+    background-color: #262626;
+    color: aliceblue;
+    margin-top: 40px;
+    min-height: 300px;
+    height: 100%;
+}
+.social-media{
+    list-style-type: none;
+    opacity: 0.5;
+}
+.media{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.media:hover{
+    opacity: 1;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+input, textarea{
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px 5px;
+    border-radius: 4px;
+    border: 1px solid greenyellow;
+    outline: none;
+}
+textarea{
+    height: 200px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(247, 79, 79);
+    padding: 5px 15px;
+    color: white;
+    outline: none;
+}
+.delete-button:hover{
+    background-color: rgb(213, 15, 15);
+    transition: .5s  ease-in
+}
+/* .menu{
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+} */
+
+.article-title{
+    font-family: 'Montserrat', sans-serif
+}
+.edit-button{
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: rgb(226, 231, 236);
+    padding: 5px 15px;
+    color: white;
+    outline: none;
+    margin-right: 5px;
+    width: 44px;
+    height: 38px;
+}
+.edit-button:hover{
+    background-color: rgb(132, 137, 142);
+    transition: .5s ease-in; 
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.edit-button:active{
+    outline-style: none;
+}
+.edit-button:focus{
+    outline-style: none;
+}
+.failed-search{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #605d5d
+}
